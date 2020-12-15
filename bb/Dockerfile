@@ -5,4 +5,4 @@ COPY package-lock.json /bb
 RUN npm install
 COPY . /bb
 CMD ["npm", "start"]
-EXPOSE 3003
+EXPOSE 3000
